@@ -9,7 +9,7 @@
       <Position/>
     </div>
     <div>
-      <Message  message='props message'/>
+      <Message  :message="'props message'"/>
     </div>
   </div>
 </template>

@@ -2,7 +2,7 @@
   <div>
     {{msg}}
     <button @click="setMsg">
-      fix
+      props
     </button>
   </div>
 </template>

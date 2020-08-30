@@ -8,18 +8,23 @@
       usePosition
       <Position/>
     </div>
+    <div>
+      <Message  message='props message'/>
+    </div>
   </div>
 </template>
 
 <script>
 import PositionMixin from './components/PositionMixin.vue'
 import Position from './components/Position.vue'
+import Message from './components/Message.vue'
 
 export default {
   name: 'App',
   components: {
     PositionMixin,
-    Position
+    Position,
+    Message
   }
 }
 </script>

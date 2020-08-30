@@ -1,17 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div>
+      Mixin
+      <PositionMixin/>
+    </div>
+    <div>
+      usePosition
+      <Position/>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PositionMixin from './components/PositionMixin.vue'
+import Position from './components/Position.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PositionMixin,
+    Position
   }
 }
 </script>

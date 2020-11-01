@@ -3,6 +3,7 @@
     {{msg}}
     <button @click="setMsg">
       props
+      TEST
     </button>
   </div>
 </template>

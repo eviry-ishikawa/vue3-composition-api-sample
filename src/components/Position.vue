@@ -4,6 +4,7 @@
     {{mousePosition.x}}
     {{mousePosition.y}}
   </div>
+  
 </div>
 </template>
 
